@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #003030;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navBar ul {
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.navBar ul li a {
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.navBar ul li a:hover {
+    color: aqua;
+}

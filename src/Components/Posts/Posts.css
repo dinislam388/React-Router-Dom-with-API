@@ -1,0 +1,33 @@
+.heading {
+    background-color: #003030;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.postsMap {
+    display: grid;
+    gap: 20px;
+    background-color: #003030;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.PostsCards {
+    background-color: #043939;
+    text-align: center;
+    padding: 50px;
+    transition: all .3s ease;
+    color: #fff;
+}
+
+.PostsCards:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+/* transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color); */
